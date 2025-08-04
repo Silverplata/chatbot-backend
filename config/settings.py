@@ -20,7 +20,11 @@ ACCESS_TOKEN_EXPIRE_MINUTES = 30
 def configure_cors(app):
     app.add_middleware(
         CORSMiddleware,
-        allow_origins=["http://localhost:4200"],
+        allow_origins=[
+            "http://localhost:4200",
+            "https://chatbot-frontend-4ad09.web.app", 
+            "https://chatbot-frontend-4ad09.firebaseapp.com"
+        ],
         allow_credentials=True,
         allow_methods=["*"],
         allow_headers=["*"],
