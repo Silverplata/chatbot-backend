@@ -82,7 +82,7 @@ chatbot-backend/
    ```
 
 4. **Configurar variables de entorno**:
-   Crea un archivo `.env` en el directorio raíz del proyecto (`E:\PROYECTOS_DEVAS\CURSOS.YOUTUBE\PYTHON\childbot`) con el siguiente contenido:
+   Crea un archivo `.env` en el directorio raíz del proyecto (`E:\childbot`) con el siguiente contenido:
    ```plaintext
    OPENAI_API_KEY=tu_clave_de_openai
    SECRET_KEY=tu_clave_secreta
@@ -103,10 +103,10 @@ chatbot-backend/
 3. La API estará disponible en `http://localhost:8000`.
 
 ### Opción 2: Con Docker
-1. Asegúrate de que el archivo `docker-compose.yml` esté en el directorio raíz (`E:\PROYECTOS_DEVAS\CURSOS.YOUTUBE\PYTHON\childbot`) y que incluya el servicio `backend`.
+1. Asegúrate de que el archivo `docker-compose.yml` esté en el directorio raíz (`E:\childbot`) y que incluya el servicio `backend`.
 2. Construye y ejecuta el contenedor:
    ```bash
-   cd E:\PROYECTOS_DEVAS\CURSOS.YOUTUBE\PYTHON\childbot
+   cd E:\childbot
    docker-compose up --build
    ```
 3. La API estará disponible en `http://localhost:8000`.
