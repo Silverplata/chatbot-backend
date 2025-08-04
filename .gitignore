@@ -1,4 +1,7 @@
 .env
-/venv/include
-/venv/lib
-/venv/Scripts
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
